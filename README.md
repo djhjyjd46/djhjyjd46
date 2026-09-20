@@ -19,6 +19,9 @@ I architect systems based on **Google Cloud's Non-Agentic First** principles:
 
 ## 🛠️ Featured Open Source & Production Showcases
 
+### 🏢 Agency Operating System & Studio Agent
+- **[fastup-studio-demo](https://github.com/djhjyjd46/fastup-studio-demo)** — **Flagship Showcase**: Autonomous Agency Operating System & Multi-Agent Environment built on Antigravity 2.0 and Google Non-Agentic First patterns. Two-tier architecture: 24/7 deterministic server backend + desktop orchestrator with 13 progressive skills, 50+ MCP server tools, and Git-backed operational memory.
+
 ### 🧠 AI Engineering & LLM Ops
 - **[local-llm-vulkan-lora](https://github.com/djhjyjd46/local-llm-vulkan-lora)** — End-to-end pipeline for fine-tuning local LLMs (Qwen3) on consumer AMD GPUs under Windows using **Vulkan & DirectCompute (no CUDA required)**. Audio transcription via Whisper GPU + LoRA fine-tuning via QVAC fabric + dynamic in-memory adapter serving via llama-server.
 - **[laravel-rag-ai-engine](https://github.com/djhjyjd46/laravel-rag-ai-engine)** — Enterprise RAG system on Laravel 10 / PHP 8.2+ with **pgvector semantic search**, dynamic confidence-based query routing, and DeepSeek / OpenAI / Ollama bridges.
