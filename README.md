@@ -1,57 +1,57 @@
-# Hi there, I'm Egor Voronov 👋
+# Привет, я Егор Воронов 👋
 
-### 🚀 AI Systems Architect & Fullstack Automation Engineer
-Building deterministic, high-efficiency business infrastructure and applied AI ecosystems.
+### 🚀 Архитектор AI-систем & Fullstack-инженер по автоматизации
+Проектирую прикладную агентную инфраструктуру, надежный бэкенд и системы сквозной автоматизации бизнес-процессов.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@Asmodey__dev-2CA5E0.svg?logo=telegram)](https://t.me/Asmodey_dev)
-[![FastUp Studio](https://img.shields.io/badge/Studio-FastUp.by-blueviolet.svg)](https://fastup.by)
+[![FastUp Studio](https://img.shields.io/badge/Студия-FastUp.by-blueviolet.svg)](https://fastup.by)
 [![Email](https://img.shields.io/badge/Email-djhjyjd46@gmail.com-D14836.svg?logo=gmail)](mailto:djhjyjd46@gmail.com)
 
 ---
 
-## 💡 Engineering Philosophy: Non-Agentic First
+## 💡 Инженерный подход: Non-Agentic First (Принцип Google Cloud)
 
-I architect systems based on **Google Cloud's Non-Agentic First** principles:
-- **90% Deterministic Code:** State transitions, database queries, and business math run on clean, reliable code with zero hallucinations, zero latency waste, and predictable unit economics.
-- **10% Selective LLM Reasoning:** Large language models (DeepSeek, OpenAI, Gemini) are applied strictly where natural language synthesis, semantic intent routing, or multi-modal understanding are genuinely required.
-
----
-
-## 🛠️ Featured Open Source & Production Showcases
-
-### 🏢 Agency Operating System & Studio Agent
-- **[fastup-studio-demo](https://github.com/djhjyjd46/fastup-studio-demo)** — **Flagship Showcase**: Autonomous Agency Operating System & Multi-Agent Environment built on Antigravity 2.0 and Google Non-Agentic First patterns. Two-tier architecture: 24/7 deterministic server backend + desktop orchestrator with 13 progressive skills, 50+ MCP server tools, and Git-backed operational memory.
-
-### 🧠 AI Engineering & LLM Ops
-- **[local-llm-vulkan-lora](https://github.com/djhjyjd46/local-llm-vulkan-lora)** — End-to-end pipeline for fine-tuning local LLMs (Qwen3) on consumer AMD GPUs under Windows using **Vulkan & DirectCompute (no CUDA required)**. Audio transcription via Whisper GPU + LoRA fine-tuning via QVAC fabric + dynamic in-memory adapter serving via llama-server.
-- **[laravel-rag-ai-engine](https://github.com/djhjyjd46/laravel-rag-ai-engine)** — Enterprise RAG system on Laravel 10 / PHP 8.2+ with **pgvector semantic search**, dynamic confidence-based query routing, and DeepSeek / OpenAI / Ollama bridges.
-- **[openclaw](https://github.com/djhjyjd46/openclaw)** — Autonomous AI Agent Orchestration Gateway running locally on Windows with a custom **Visual Studio Code Extension**.
-- **[geo-topic-agent](https://github.com/djhjyjd46/geo-topic-agent)** — Generative Engine Optimization (GEO/AEO) multi-harness runtime (Antigravity, Claude, Cursor, Codex).
-
-### 🤖 Applied Telegram Bots
-- **[kubdecor-bot](https://github.com/djhjyjd46/kubdecor-bot)** — AI-powered commercial estimation bot (Node.js/Telegraf) combining DeepSeek Chat, vector embeddings, cosine similarity, and Google Sheets API.
-- **[marusya-ai-bot](https://github.com/djhjyjd46/marusya-ai-bot)** — Personalized Voice & Text AI persona (PHP 8.x OOP) with DeepSeek chat and Nexara Speech-to-Text recursive audio fallback.
-- **[chatbot](https://github.com/djhjyjd46/chatbot)** — Autonomous business lead extraction bot with atomic Google Sheets synchronization.
-
-### 📊 B2B SaaS & Web Development
-- **[saas-dashboard](https://github.com/djhjyjd46/saas-dashboard)** — B2B Marketing Intelligence Platform (Laravel, Vite, Tailwind). Automated Yandex.Direct API spend ingestion + amoCRM attribution & ROI dashboard.
-- **[pet-plagin](https://github.com/djhjyjd46/pet-plagin)** — Modern Google Chrome Extension (**Manifest V3**) with MutationObserver DOM analytics, freshness detection, and sidebar widget injection *(Verified Chrome Web Store Developer)*.
-- **[stashevsky](https://github.com/djhjyjd46/stashevsky)** — Custom production WordPress theme (Tailwind CSS, Vite, ACF Pro JSON sync, Theme Options Panel).
-- **[foodgarden-woocommerce-theme](https://github.com/djhjyjd46/foodgarden-woocommerce-theme)** — E-commerce WooCommerce theme with custom catalog filters and dynamic hero sliders.
-- **[seo-audit-proposals](https://github.com/djhjyjd46/seo-audit-proposals)** — Interactive HTML audit and commercial proposals generator with dual dark/light themes.
+В разработке систем автоматизации я строго следую паттернам надежности:
+- **90% Детерминированный чистый код:** Транзакции базы данных, бизнес-логика, финансовые расчеты и переходы состояний исполняются строгим кодом (Python, PHP, Node.js) со 100% предсказуемостью, нулевым риском галлюцинаций и минимальной себестоимостью.
+- **10% Точечный интеллект LLM:** Нейросетевые модели (DeepSeek, OpenAI, Gemini) подключаются только там, где действительно требуется гибкий семантический анализ, маршрутизация намерений или генерация естественного языка.
 
 ---
 
-## 🧰 Tech Stack & Tooling
+## 🛠️ Избранные проекты и архитектурные решения
+
+### 🏢 Операционные системы для бизнеса и студийные агенты
+- **[fastup-studio-demo](https://github.com/djhjyjd46/fastup-studio-demo)** — **Флагманский проект:** Архитектура агентной операционной системы агентства на базе Antigravity 2.0. Двухуровневый контур: отказоустойчивый серверный бэкенд 24/7 + студия фаундера (13 специализированных навыков, 50+ MCP-инструментов, единая CRM и память в Git).
+
+### 🧠 Прикладная AI-инженерия & LLM Ops
+- **[local-llm-vulkan-lora](https://github.com/djhjyjd46/local-llm-vulkan-lora)** — Сквозной пайплайн файнтюнинга локальных LLM (Qwen3) на потребительских **видеокартах AMD под Windows через Vulkan & DirectCompute (без CUDA)**. Транскрипция аудио через Whisper GPU + LoRA-обучение через QVAC fabric + инференс через llama-server с динамическим подключением адаптера на лету.
+- **[laravel-rag-ai-engine](https://github.com/djhjyjd46/laravel-rag-ai-engine)** — Enterprise RAG-система на Laravel 10 / PHP 8.2+: семантический поиск **pgvector в PostgreSQL**, динамический роутер входящих запросов (RAG / LLM / Hybrid) и поддержка DeepSeek API.
+- **[openclaw](https://github.com/djhjyjd46/openclaw)** — Локальный шлюз-оркестратор автономных агентов. Отработал **более 2 месяцев в режиме 24/7 на боевом VPS**. Включает кастомное расширение для Visual Studio Code.
+- **[geo-topic-agent](https://github.com/djhjyjd46/geo-topic-agent)** — Движок Generative Engine Optimization (AEO/GEO) для анализа и вывода брендов в ответы поисковых нейросетей (ChatGPT Search, Perplexity, Яндекс Нейро).
+
+### 🤖 Боевые Telegram AI Боты
+- **[kubdecor-bot](https://github.com/djhjyjd46/kubdecor-bot)** — AI-бот автоматического расчета смет (Node.js/Telegraf): DeepSeek Chat + векторный поиск по базе материалов (cosine similarity) + синхронизация с Google Sheets.
+- **[marusya-ai-bot](https://github.com/djhjyjd46/marusya-ai-bot)** — Голосовой AI-собеседник на чистом PHP 8.x OOP: интеграция DeepSeek, распознавание речи Nexara STT с авто-fallback для ультракоротких голосовых сообщений.
+- **[chatbot](https://github.com/djhjyjd46/chatbot)** — Бизнес-ассистент: автоматический парсинг лидов и договорённостей из чатов в Google Таблицы с защитой от гонок данных.
+
+### 📊 B2B SaaS, Веб-разработка и Расширения
+- **[saas-dashboard](https://github.com/djhjyjd46/saas-dashboard)** — B2B-платформа сквозной маркетинговой аналитики (Laravel 10, Vite, Tailwind). Автоматическая агрегация расходов Яндекс.Директ + сделки amoCRM, расчет ROMI, CPL, CPA.
+- **[pet-plagin](https://github.com/djhjyjd46/pet-plagin)** — Расширение для Google Chrome на **Manifest V3**: мониторинг динамической ленты постов VK через MutationObserver, подсветка устаревшего контента (>6 месяцев) и инъекция виджета в сайдбар. *(Верифицированный аккаунт разработчика Chrome Web Store)*.
+- **[stashevsky](https://github.com/djhjyjd46/stashevsky)** — Кастомная тема WordPress для арт-галереи: Tailwind CSS + Vite + двусторонняя синхронизация полей ACF Pro JSON.
+- **[foodgarden-woocommerce-theme](https://github.com/djhjyjd46/foodgarden-woocommerce-theme)** — E-commerce тема на WooCommerce с гибкой кастомизацией каталога и динамическим слайдером.
+- **[seo-audit-proposals](https://github.com/djhjyjd46/seo-audit-proposals)** — Генератор интерактивных клиентских SEO-аудитов и коммерческих предложений (HTML, dual dark/light themes, Puppeteer).
+
+---
+
+## 🧰 Технологический стек
 
 `
-Languages:       Python 3.11+, PHP 8.2+, JavaScript (ES6+), TypeScript, SQL
-Frameworks:      Laravel 10.x, WordPress (Core/ACF Pro), Node.js, Express, Vite
-AI / ML:         DeepSeek API, OpenAI API, Gemini Pro, RAG, pgvector, LoRA, Vulkan, Whisper GPU
-Frontend:        Tailwind CSS, Alpine.js, HTML5, CSSOM, Chrome Extensions (Manifest V3)
-Databases:       PostgreSQL, MySQL, SQLite, ChromaDB
-DevOps / OS:     Windows, Linux, ISPmanager 6, PM2, Git, PowerShell
+Языки:          Python 3.11+, PHP 8.2+, JavaScript (ES6+), TypeScript, SQL, Bash / PowerShell
+Фреймворки:     Laravel 10.x, WordPress (Core / ACF Pro), Node.js, Express, Vite
+Нейросети / AI: DeepSeek API, OpenAI API, Gemini Pro, RAG, pgvector, LoRA, Vulkan, Whisper GPU
+Фронтенд:       Tailwind CSS, Alpine.js, HTML5, CSSOM, Chrome Extensions (Manifest V3)
+Базы данных:    PostgreSQL, MySQL, SQLite, ChromaDB
+Инфраструктура: Linux, Windows, ISPmanager 6, PM2, Git, Nginx, Docker
 `
 
 ---
-*Minsk / Mogilev, Belarus • Open for high-impact AI Automation & Architecture inquiries.*
+*Минск / Могилёв, Беларусь • Открыт к интересным задачам в сфере AI-автоматизации и архитектуры.*
