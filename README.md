@@ -9,6 +9,12 @@
 
 ---
 
+> ℹ️ **О публичных репозиториях в этом профиле (Engineering Showcase):**  
+> Проекты в этом аккаунте — это **санированные публичные витрины** реальных коммерческих систем и R&D-исследований, разрабатывавшихся локально на боевых серверах и рабочих станциях в 2024–2026 гг.  
+> Для соблюдения NDA и защиты коммерческой тайны клиентов из кода исключены клиентские PII, боевые базы данных, секреты и финансовые ключи, а проверенный срез архитектуры выложен в Open Source с указанием реальных сроков разработки.
+
+---
+
 ## 💡 Инженерный подход: Non-Agentic First (Принцип Google Cloud)
 
 В разработке систем автоматизации я строго следую паттернам надежности:
@@ -17,28 +23,41 @@
 
 ---
 
-## 🛠️ Избранные проекты и архитектурные решения
+## 🛠️ Хронология и витрина проектов (2024 — 2026)
 
 ### 🏢 Операционные системы для бизнеса и студийные агенты
-- **[fastup-studio-demo](https://github.com/djhjyjd46/fastup-studio-demo)** — **Флагманский проект:** Архитектура агентной операционной системы агентства на базе Antigravity 2.0. Двухуровневый контур: отказоустойчивый серверный бэкенд 24/7 + студия фаундера (13 специализированных навыков, 50+ MCP-инструментов, единая CRM и память в Git).
+- **[fastup-studio-demo](https://github.com/djhjyjd46/fastup-studio-demo)** [Июль 2026 — н.в.]  
+  **Флагманский проект:** Архитектура агентной операционной системы агентства на базе Antigravity 2.0. Двухуровневый контур: отказоустойчивый серверный бэкенд 24/7 + студия фаундера (13 специализированных навыков, 50+ MCP-инструментов, единая CRM и память в Git).
 
 ### 🧠 Прикладная AI-инженерия & LLM Ops
-- **[local-llm-vulkan-lora](https://github.com/djhjyjd46/local-llm-vulkan-lora)** — Сквозной пайплайн файнтюнинга локальных LLM (Qwen3) на потребительских **видеокартах AMD под Windows через Vulkan & DirectCompute (без CUDA)**. Транскрипция аудио через Whisper GPU + LoRA-обучение через QVAC fabric + инференс через llama-server с динамическим подключением адаптера на лету.
-- **[laravel-rag-ai-engine](https://github.com/djhjyjd46/laravel-rag-ai-engine)** — Enterprise RAG-система на Laravel 10 / PHP 8.2+: семантический поиск **pgvector в PostgreSQL**, динамический роутер входящих запросов (RAG / LLM / Hybrid) и поддержка DeepSeek API.
-- **[openclaw](https://github.com/djhjyjd46/openclaw)** — Локальный шлюз-оркестратор автономных агентов. Отработал **более 2 месяцев в режиме 24/7 на боевом VPS**. Включает кастомное расширение для Visual Studio Code.
-- **[geo-topic-agent](https://github.com/djhjyjd46/geo-topic-agent)** — Движок Generative Engine Optimization (AEO/GEO) для анализа и вывода брендов в ответы поисковых нейросетей (ChatGPT Search, Perplexity, Яндекс Нейро).
+- **[local-llm-vulkan-lora](https://github.com/djhjyjd46/local-llm-vulkan-lora)** [Июнь 2026 — н.в.]  
+  Сквозной пайплайн файнтюнинга локальных LLM (Qwen3) на потребительских **видеокартах AMD под Windows через Vulkan & DirectCompute (без CUDA)**. Транскрипция аудио через Whisper GPU + LoRA-обучение через QVAC fabric + инференс через llama-server с динамическим подключением адаптера на лету.
+- **[laravel-rag-ai-engine](https://github.com/djhjyjd46/laravel-rag-ai-engine)** [Март 2024 — н.в.]  
+  Enterprise RAG-система на Laravel 10 / PHP 8.2+: семантический поиск **pgvector в PostgreSQL**, динамический роутер входящих запросов (RAG / LLM / Hybrid) и поддержка DeepSeek API.
+- **[openclaw](https://github.com/djhjyjd46/openclaw)** [Март 2026 — н.в.]  
+  Локальный шлюз-оркестратор автономных агентов. **Более 2 месяцев непрерывной боевой работы на VPS 24/7**. Включает кастомное расширение для Visual Studio Code.
+- **[geo-topic-agent](https://github.com/djhjyjd46/geo-topic-agent)** [Июль 2026 — н.в.]  
+  Движок Generative Engine Optimization (AEO/GEO) для анализа и вывода брендов в ответы поисковых нейросетей (ChatGPT Search, Perplexity, Яндекс Нейро).
 
 ### 🤖 Боевые Telegram AI Боты
-- **[kubdecor-bot](https://github.com/djhjyjd46/kubdecor-bot)** — AI-бот автоматического расчета смет (Node.js/Telegraf): DeepSeek Chat + векторный поиск по базе материалов (cosine similarity) + синхронизация с Google Sheets.
-- **[marusya-ai-bot](https://github.com/djhjyjd46/marusya-ai-bot)** — Голосовой AI-собеседник на чистом PHP 8.x OOP: интеграция DeepSeek, распознавание речи Nexara STT с авто-fallback для ультракоротких голосовых сообщений.
-- **[chatbot](https://github.com/djhjyjd46/chatbot)** — Бизнес-ассистент: автоматический парсинг лидов и договорённостей из чатов в Google Таблицы с защитой от гонок данных.
+- **[kubdecor-bot](https://github.com/djhjyjd46/kubdecor-bot)** [Февраль 2026]  
+  AI-бот автоматического расчета смет (Node.js/Telegraf): DeepSeek Chat + векторный поиск по базе материалов (cosine similarity) + синхронизация с Google Sheets.
+- **[marusya-ai-bot](https://github.com/djhjyjd46/marusya-ai-bot)** [Ноябрь 2025 — н.в.]  
+  Голосовой AI-собеседник на чистом PHP 8.x OOP: интеграция DeepSeek, распознавание речи Nexara STT с авто-fallback для ультракоротких голосовых сообщений.
+- **[chatbot](https://github.com/djhjyjd46/chatbot)** [Январь 2026 — н.в.]  
+  Бизнес-ассистент: автоматический парсинг лидов и договорённостей из чатов в Google Таблицы с защитой от гонок данных.
 
 ### 📊 B2B SaaS, Веб-разработка и Расширения
-- **[saas-dashboard](https://github.com/djhjyjd46/saas-dashboard)** — B2B-платформа сквозной маркетинговой аналитики (Laravel 10, Vite, Tailwind). Автоматическая агрегация расходов Яндекс.Директ + сделки amoCRM, расчет ROMI, CPL, CPA.
-- **[pet-plagin](https://github.com/djhjyjd46/pet-plagin)** — Расширение для Google Chrome на **Manifest V3**: мониторинг динамической ленты постов VK через MutationObserver, подсветка устаревшего контента (>6 месяцев) и инъекция виджета в сайдбар. *(Верифицированный аккаунт разработчика Chrome Web Store)*.
-- **[stashevsky](https://github.com/djhjyjd46/stashevsky)** — Кастомная тема WordPress для арт-галереи: Tailwind CSS + Vite + двусторонняя синхронизация полей ACF Pro JSON.
-- **[foodgarden-woocommerce-theme](https://github.com/djhjyjd46/foodgarden-woocommerce-theme)** — E-commerce тема на WooCommerce с гибкой кастомизацией каталога и динамическим слайдером.
-- **[seo-audit-proposals](https://github.com/djhjyjd46/seo-audit-proposals)** — Генератор интерактивных клиентских SEO-аудитов и коммерческих предложений (HTML, dual dark/light themes, Puppeteer).
+- **[saas-dashboard](https://github.com/djhjyjd46/saas-dashboard)** [Февраль 2026 — Апрель 2026]  
+  B2B-платформа сквозной маркетинговой аналитики (Laravel 10, Vite, Tailwind). Автоматическая агрегация расходов Яндекс.Директ + сделки amoCRM, расчет ROMI, CPL, CPA.
+- **[pet-plagin](https://github.com/djhjyjd46/pet-plagin)** [Февраль 2025 — н.в.]  
+  Расширение для Google Chrome на **Manifest V3**: мониторинг динамической ленты постов VK через MutationObserver, подсветка устаревшего контента (>6 месяцев) и инъекция виджета в сайдбар. *(Верифицированный аккаунт разработчика Chrome Web Store)*.
+- **[stashevsky](https://github.com/djhjyjd46/stashevsky)** [Апрель 2026 — н.в.]  
+  Кастомная тема WordPress для арт-галереи: Tailwind CSS + Vite + двусторонняя синхронизация полей ACF Pro JSON.
+- **[foodgarden-woocommerce-theme](https://github.com/djhjyjd46/foodgarden-woocommerce-theme)** [Август 2025 — н.в.]  
+  E-commerce тема на WooCommerce с гибкой кастомизацией каталога и динамическим слайдером.
+- **[seo-audit-proposals](https://github.com/djhjyjd46/seo-audit-proposals)** [Август 2026 — н.в.]  
+  Генератор интерактивных клиентских SEO-аудитов и коммерческих предложений (HTML, dual dark/light themes, Puppeteer).
 
 ---
 
